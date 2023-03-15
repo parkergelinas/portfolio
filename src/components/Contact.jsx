@@ -82,7 +82,12 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_id", "template_id", ref.current, "public_key")
+      .sendForm(
+        "service_7ash8nz",
+        "template_i2wgcz2",
+        ref.current,
+        "rSqpHAXt4Z7lB_9ou"
+      )
       .then(
         (result) => {
           console.log(result.text);

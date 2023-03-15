@@ -22,7 +22,6 @@ function App() {
       <Hero />
       <Works />
       <Contact />
-      <Test />
     </Container>
   );
 }

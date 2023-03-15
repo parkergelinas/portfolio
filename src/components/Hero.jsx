@@ -140,13 +140,13 @@ const Hero = () => {
                 enabled={false}
               />
               <ambientLightProbe intensity={1} />
-              <directionalLight position={[3, 2, 1]} />
-              <Sphere args={[1, 100, 200]} scale={2}>
+              <directionalLight position={[1, 1, 100]} />
+              <Sphere args={[1, 100, 100]} scale={1.5}>
                 <MeshDistortMaterial
                   color="#c48432"
                   attach="material"
-                  distort={0.6}
-                  speed={2}
+                  distort={1}
+                  speed={5}
                 />
               </Sphere>
             </Suspense>

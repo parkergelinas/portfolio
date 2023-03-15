@@ -8,6 +8,8 @@ const Section = styled.div`
 
 const Container = styled.div`
   width: 1400px;
+  border-radius: 5px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
